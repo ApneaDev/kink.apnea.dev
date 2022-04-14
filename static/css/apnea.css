@@ -1,0 +1,23 @@
+.bilberry-hugo-theme header .logo .overlay,
+.bilberry-hugo-theme .main .article-wrapper .bubble:hover,
+.bilberry-hugo-theme article.link:hover,
+.bilberry-hugo-theme .paginator a:hover{
+	background-color: #fca311;
+}
+
+.bilberry-hugo-theme a:hover,
+.bilberry-hugo-theme article .content a.more,
+.bilberry-hugo-theme article .content #TableOfContents li a:hover,
+.bilberry-hugo-theme footer .container ul a,
+.bilberry-hugo-theme footer .container .right .external-profiles a:hover,
+.bilberry-hugo-theme footer .container .right .languages a {
+	color: #fca311;
+}
+
+.bilberry-hugo-theme article.link:hover:after {
+	border-right-color: #fca311;
+}
+
+.bilberry-hugo-theme .paginator a:hover{
+	color: #fff;
+}

@@ -1,0 +1,38 @@
+name: Update GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Initialize submodules
+        run: git submodule update --init --recursive
+
+      - name: Build
+        run: hugo
+
+      - name: Setup custom domain
+        run: echo "kink.apnea.dev" > ./public/CNAME
+
+      - name: Disallow Robots (todo remove me)
+        run: 'echo "User-agent: *" > ./public/robots.txt && echo "Disallow: /" >> ./public/robots.txt'
+
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: ./public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
