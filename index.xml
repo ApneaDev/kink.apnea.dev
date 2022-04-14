@@ -1,0 +1,23 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apnea</title>
+    <link>https://kink.apnea.dev/</link>
+    <description>Recent content on Apnea</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 14 Apr 2022 17:45:00 +0100</lastBuildDate>
+    
+        <atom:link href="https://kink.apnea.dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ein besonderes Testerlebnis</title>
+      <link>https://kink.apnea.dev/article/220410-testerlebnis/</link>
+      <pubDate>Thu, 14 Apr 2022 17:45:00 +0100</pubDate>
+      
+      <guid>https://kink.apnea.dev/article/220410-testerlebnis/</guid>
+      <description>Für die nächste Playparty soll ich einen PCR-Test machen lassen. Meine Top verkündet mir, dass sie dazu einen Termin für mich in einem &amp;ldquo;speziellen&amp;rdquo; Testzentrum gemacht hat und grinst mich dabei schelmisch an.
+Am nächsten Tag gehe ich zu der vereinbarten Uhrzeit zu der Adresse die sie mir gegeben hat. Ich stehe vor einem Altbau mit mehreren Mietparteien. Auf dem Klingelschild entdecke ich die Aufschrift &amp;ldquo;Testcenter&amp;rdquo;. Mir ist etwas mulmig zu mute, weil ich nicht weiß, was mich erwartet.</description>
+    </item>
+    
+  </channel>
+</rss>
